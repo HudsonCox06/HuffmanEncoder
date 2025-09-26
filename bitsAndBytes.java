@@ -1,7 +1,6 @@
 import java.util.*;
 
 
-//I faced different issues when implementing the padding, so I redid the functionality with help from online resources
 public class bitsAndBytes{
 	
 	public static byte[] bitsToBytes(List<Integer> bits, int padding){
@@ -19,7 +18,6 @@ public class bitsAndBytes{
 	}
 
 	public static List<Integer> bytesToBits(byte[] bytes, int padding){
-		//System.out.println(padding);
 		ArrayList<Integer> returnList = new ArrayList<>();
 		
 		for(byte b: bytes){
