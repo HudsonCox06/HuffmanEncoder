@@ -32,12 +32,15 @@ This project demonstrates understanding of data compression, tree-based algorith
 _git clone https://github.com/HudsonCox06/HuffmanEncoder.git_
 
 _cd HuffmanEncoder_
+
 2. Compile:
 
 _javac *.java_
+
 3. Run the enconder:
 
 _java HuffmanEncoder input.txt encoded.huff_
+
 4. Run the decoder:
 
 _java HuffmanDecoder encoded.huff output.txt_
